@@ -19,45 +19,49 @@ This study guide covers all major topics in the KCNA curriculum. Each section in
 
 ## Study Guide Outline
 
-1. [Introduction to Cloud Native and Containers](link-to-section-1)
-   - Cloud Native concepts and principles
-   - Container basics and Docker
-   - Container runtimes and standards
+1. Introduction to Cloud Native and Containers
+   - [Introduction to Cloud Native Computing](/lessons/01-introduction-to-cloud-native.md)
+   - [Docker for Beginners: Introduction to Docker](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/)
+   - [Docker for Beginners: Understanding Docker Architecture](https://www.iamachs.com/p/docker/part-2-understanding-docker-architecture/)
+   - [Docker for Beginners: Creating Your First Docker Image](https://www.iamachs.com/p/docker/part-3-creating-your-first-docker-image/)
+   - [Docker for Beginners: Networking Fundamentals for Containers](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
+   - [Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
+   - [Docker for Beginners: Beyond Docker - Understanding containerd and CRI-O](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
 
-2. [Kubernetes Fundamentals](link-to-section-2)
+2. Kubernetes Fundamentals (_Coming Soon!_)
    - Kubernetes architecture and components
    - Basic Kubernetes objects
    - Kubernetes networking basics
    - Configuration and Secrets management
 
-3. [Container Orchestration and Advanced Kubernetes](link-to-section-3)
+3. Container Orchestration and Advanced Kubernetes (_Coming Soon!_)
    - Container orchestration principles
    - Advanced Kubernetes objects
    - Kubernetes scheduling and resource management
    - Introduction to Helm
 
-4. [Cloud Native Architecture](link-to-section-4)
+4. Cloud Native Architecture (_Coming Soon!_)
    - Microservices architecture
    - Autoscaling and serverless concepts
    - Cloud Native design patterns
    - Community, governance, and open standards
 
-5. [Cloud Native Observability and Monitoring](link-to-section-5)
+5. Cloud Native Observability and Monitoring (_Coming Soon!_)
    - Observability principles
    - Introduction to Prometheus and Grafana
    - Basic cost management in Cloud Native environments
 
-6. [Cloud Native Application Delivery and DevOps](link-to-section-6)
+6.  Cloud Native Application Delivery and DevOps (_Coming Soon!_)
    - CI/CD in Cloud Native environments
    - GitOps principles
    - Basic security concepts in the CI/CD pipeline
 
-7. [Cloud Native Security Fundamentals](link-to-section-7)
+7. Cloud Native Security Fundamentals (_Coming Soon!_)
    - The 4Cs of Cloud Native Security
    - Basic Kubernetes security concepts
    - Container and image security
 
-8. [Emerging Cloud Native Technologies](link-to-section-8)
+8. Emerging Cloud Native Technologies (_Coming Soon!_)
    - Service Mesh introduction
    - Serverless and Function-as-a-Service (FaaS)
    - Edge computing in Cloud Native environments
