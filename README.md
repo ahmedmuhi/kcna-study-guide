@@ -13,7 +13,7 @@ This study guide covers all major topics in the KCNA curriculum. Each section in
 
 ## Exam Information
 
-- [Official KCNA Curriculum](https://github.com/cncf/curriculum)
+- [Official KCNA Curriculum](https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf)
 - [KCNA Exam Details](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
 - [Register for the KCNA Exam](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
 
