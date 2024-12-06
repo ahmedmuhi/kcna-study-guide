@@ -28,11 +28,12 @@ This study guide covers all major topics in the KCNA curriculum. Each section in
    - [Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
    - [Docker for Beginners: Beyond Docker - Understanding containerd and CRI-O](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
 
-2. Kubernetes Fundamentals (_Coming Soon!_)
-   - Kubernetes architecture and components
-   - Basic Kubernetes objects
-   - Kubernetes networking basics
-   - Configuration and Secrets management
+2. Kubernetes Fundamentals _(Work in Progress)_
+   - [Introduction to Kubernetes: Your Journey Begins Here](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)
+   - [Understanding Kubernetes Pods: The Building Blocks of Your Cloud-Native Applications](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)
+   - [Understanding Kubernetes ReplicaSets: Ensuring High Availability for Your Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
+   - Kubernetes networking basics _(Coming Soon)_
+   - Configuration and Secrets management _(Coming Soon)_
 
 3. Container Orchestration and Advanced Kubernetes (_Coming Soon!_)
    - Container orchestration principles
