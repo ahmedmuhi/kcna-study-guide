@@ -15,7 +15,7 @@ A self-paced, open-source study guide designed to:
 - Provide curated learning resources, articles, hands-on exercises, and conceptual checkpoints
 - Track your progress through clear **phases** and **domains**
 
-> 🧭 This README **includes the full study plan** — you don’t need to dig through folders unless you want extra depth.
+> 🧭 This README includes the full study plan — no folder-hunting required.
 
 ---
 
@@ -39,22 +39,22 @@ A self-paced, open-source study guide designed to:
 
 ## The Game Plan: Focus Areas by Weight
 
-| Domain                        | Weight | Study Material                                       |
-|------------------------------|--------|------------------------------------------------------|
-| Kubernetes Fundamentals      | 46%    | ✅ [See below](#domain-1-kubernetes-fundamentals)     |
-| Container Orchestration      | 22%    | ✅ [See below](#domain-2-container-orchestration)     |
-| Cloud Native Architecture    | 16%    | ✅ [See below](#domain-3-cloud-native-architecture)   |
-| Observability & Monitoring   | 8%     | ✅ [See below](#domain-4-observability--monitoring)   |
-| App Delivery & DevOps        | 8%     | ✅ [See below](#domain-5-cloud-native-app-delivery)   |
+| Domain                        | Weight | Coverage Status |
+|------------------------------|--------|-----------------|
+| Kubernetes Fundamentals      | 46%    | 🟡 In Progress   |
+| Container Orchestration      | 22%    | 🟢 Mostly Covered|
+| Cloud Native Architecture    | 16%    | 🟡 In Progress   |
+| Observability & Monitoring   | 8%     | 🔴 Not Started   |
+| App Delivery & DevOps        | 8%     | 🔴 Not Started   |
 
 ---
 
-## Study Roadmap & Phases
+## 📘 Study Roadmap & Phases
 
-This study plan is broken into **phases** aligned to the exam weights.  
-Each phase includes links to:
+This study plan is broken into **phases** aligned to exam weights.  
+Each domain includes:
 - Concept explanations
-- Curated articles (including my [Docker for Beginners](https://www.iamachs.com/tags/docker/) & [Kubernetes series](https://www.iamachs.com/tags/kubernetes/))
+- Curated articles
 - Hands-on prompts (where useful)
 - Practice questions (coming soon)
 
@@ -62,70 +62,82 @@ Each phase includes links to:
 
 ### Domain 1: Kubernetes Fundamentals (46%)
 
-🧠 Learn the architecture, key components, Pods, Deployments, Services, and the Kubernetes API model.
+🧠 Learn the architecture, control plane, core objects, API model, Services, scheduling, and YAML basics.
 
-✅ **Start here**  
-- [📄 Introduction to Kubernetes: Your Journey Begins Here](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)  
-- [📄 Understanding Kubernetes Pods: The Building Blocks of Your Cloud-Native Applications](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)  
-- [📄 Understanding Kubernetes ReplicaSets: Ensuring High Availability for Your Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
-- [📄 Kubernetes Networking Explained: Pods, CNI, and Overlay Networks Demystified](https://www.iamachs.com/p/kubernetes-networking-explained-pods-cni-overlay-networks/)
-- [📄 Services](Coming Soon)  
-- [📄 ConfigMaps, Secrets & Scheduling](Coming Soon)
+✅ **Start here**
+- [📄 Introduction to Kubernetes](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)
+- [📄 Understanding Kubernetes Pods](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)
+- [📄 Understanding Kubernetes ReplicaSets](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
+- [📄 Kubernetes Networking: Pods, CNI, Overlay](https://www.iamachs.com/p/kubernetes-networking-explained-pods-cni-overlay-networks/)
+
+🕐 Coming Soon:
+- Services & Discovery (ClusterIP, NodePort)
+- Namespaces, ConfigMaps, Secrets
+- Control Plane & Node components
+- API Server & Declarative YAML
+- Pod Scheduling Basics
 
 ---
 
 ### Domain 2: Container Orchestration (22%)
 
-🧠 Understand container runtimes, orchestration needs, service discovery, storage, and basic security.
+🧠 Understand container runtimes, orchestration needs, persistent storage, basic security, and service networking.
 
 ✅ **Start here**
-- [📄 Docker for Beginners: A Clear, Friendly Introduction to Containers](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/)
-- [📄 Docker for Beginners: How Docker Works Behind the Scenes](https://www.iamachs.com/p/docker/part-2-understanding-docker-architecture/)
-- [📄 Docker for Beginners: From Code to Container and Cloud](https://www.iamachs.com/p/docker/part-3-creating-your-first-docker-image/)
-- [📄 Docker for Beginners: Docker Networking Explained](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
-- [📄 Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
-- [📄 Docker for Beginners: Understanding containerd, CRI-O, and the Runtime Layer](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
-- [📄 Kubernetes Network Policies Explained: A Practical Guide](https://www.iamachs.com/p/kubernetes-network-policies-explained/)
+- [📄 Docker: Friendly Intro to Containers](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/)
+- [📄 Docker: How It Works Behind the Scenes](https://www.iamachs.com/p/docker/part-2-understanding-docker-architecture/)
+- [📄 Docker: From Code to Container](https://www.iamachs.com/p/docker/part-3-creating-your-first-docker-image/)
+- [📄 Docker Networking Fundamentals](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
+- [📄 Docker Volumes & Storage](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
+- [📄 containerd & CRI-O](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
+- [📄 Kubernetes Network Policies](https://www.iamachs.com/p/kubernetes-network-policies-explained/)
+
+🕐 Coming Soon:
+- Basic Kubernetes Security: Users, RBAC, ServiceAccounts
+- Service Mesh Basics
 
 ---
 
 ### Domain 3: Cloud Native Architecture (16%)
 
-🧠 Learn microservices, immutable infrastructure, CNCF governance, autoscaling, and open standards.
+🧠 Learn microservices, CNCF governance, open standards, autoscaling, and serverless basics.
 
-✅ **Start here**  
-- [🧾 CNCF Cloud Native Definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)  
-- [📄 Cloud Native Mindset](Coming Soon)  
-- [📄 HPA: Autoscaling Basics](Coming Soon)  
-- [📄 Serverless & CNCF Landscape](Coming Soon)
+✅ **Start here**
+- [📄 CNCF Cloud Native Definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
+
+🕐 Coming Soon:
+- Cloud Native Mindset & Principles
+- CNCF Trail Map, CRI/CNI/OCI overview
+- Kubernetes Autoscaling (HPA)
+- Serverless & Azure Functions
 
 ---
 
 ### Domain 4: Observability & Monitoring (8%)
 
-🧠 Understand the "telemetry triad": logs, metrics, traces — plus Prometheus and cost awareness.
+🧠 Learn the observability stack: logs, metrics, traces, and Prometheus basics.
 
-✅ **Start here**  
-- [📄 Observability Principles](Coming Soon)  
-- [📄 Intro to Prometheus](Coming Soon)  
-- [📄 Cost Management Basics](Coming Soon)
+🕐 Coming Soon:
+- Observability vs. Monitoring
+- Intro to Prometheus
+- Cost Awareness in Kubernetes
 
 ---
 
-### Domain 5: Cloud Native App Delivery (8%)
+### Domain 5: App Delivery & DevOps (8%)
 
-🧠 Learn CI/CD, GitOps principles, and how cloud-native teams deploy fast and reliably.
+🧠 Learn GitOps principles, CI/CD basics, and how apps get shipped in K8s.
 
-✅ **Start here**  
-- [📄 CI/CD Explained Simply](Coming Soon)  
-- [📄 GitOps 101](Coming Soon)  
-- [📄 Delivery Pipelines in K8s](Coming Soon)
+🕐 Coming Soon:
+- CI vs CD vs Continuous Deployment
+- GitOps Overview (ArgoCD/Flux)
+- Delivery Pipelines in Kubernetes
 
 ---
 
 ## Basic Tools Awareness
 
-You don’t need to master the terminal — but understand *what* `kubectl` is used for:
+You don’t need to master the terminal — just understand what `kubectl` does.
 
 | Command                | Purpose                          |
 |------------------------|----------------------------------|
@@ -139,39 +151,41 @@ You don’t need to master the terminal — but understand *what* `kubectl` is u
 
 ---
 
-## Practice Questions (Coming Soon)
+## 📝 Practice Questions (Coming Soon)
 
-I'm working on a practice section that aligns with each domain and reinforces the core KCNA-style questions (scenario-based, definition-based, architecture-focused).
+A KCNA-style question bank is coming. It will include:
+- Scenario-based questions
+- Concept checks per domain
+- Answers with explanations
 
-In the meantime, you can check:
+For now, check:
 - Linux Foundation’s official companion course (if bundled with exam)
 
 ---
 
 ## 🎁 Go Deeper (Optional Reads)
 
-If you’re curious about real-world Kubernetes networking and security, check out:
+Explore beyond the KCNA scope:
 
-- [🧠 Securing AKS with Cilium: Layer 4 & 7 Network Policies](https://www.iamachs.com/p/securing-aks-with-cilium/)
-- [🧠 Kubernetes Networking with Cilium: eBPF Security & Observability](https://www.iamachs.com/p/kubernetes-networking-with-cilium-ebpf/)
+- [Securing AKS with Cilium](https://www.iamachs.com/p/securing-aks-with-cilium/)
+- [eBPF, Cilium, and Observability](https://www.iamachs.com/p/kubernetes-networking-with-cilium-ebpf/)
 
 ---
 
 ## 🤝 Contributing
 
-Got a better explanation? Found a typo? Want to share your own learning?  
-Contributions are very welcome. See [`CONTRIBUTING.md`](#) (coming soon)
+Found a typo? Have a better example or explanation?  
+Please contribute! See [`CONTRIBUTING.md`](#) (coming soon)
 
 ---
 
 ## 📄 License
 
-MIT – feel free to copy, remix, and share this to help more learners.  
-Let’s make cloud-native learning less overwhelming and more accessible.
+MIT – remix, adapt, and share freely to support more learners.
 
 ---
 
 ## ✉️ Connect
 
-Questions? Feedback? Want to chat KCNA prep or cloud-native learning?  
-You can find me at [@ahmedmuhi01](https://x.com/ahmedmuhi01) or [iamachs.com](https://www.iamachs.com)
+Say hi or ask a question:  
+📫 [@ahmedmuhi01](https://x.com/ahmedmuhi01) | 🌐 [iamachs.com](https://www.iamachs.com)
