@@ -75,7 +75,7 @@ Before diving into containers and Kubernetes, it’s important to understand the
 - [📄 Introduction to Kubernetes](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)
 - [📄 Understanding Kubernetes Pods](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)
 - [📄 Understanding Kubernetes ReplicaSets](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
-- [📄 Kubernetes Networking: Pods, CNI, Overlay](https://www.iamachs.com/p/kubernetes-networking-explained-pods-cni-overlay-networks/)
+- [📄 Kubernetes Networking: Pods, CNI, Overlay](https://www.iamachs.com/p/kubernetes-networking/part-1-demystifying-kubernetes-networking/)
 
 🕐 Coming Soon:
 - Services & Discovery (ClusterIP, NodePort)
@@ -97,7 +97,7 @@ Before diving into containers and Kubernetes, it’s important to understand the
 - [📄 Docker Networking Fundamentals](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
 - [📄 Docker Volumes & Storage](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
 - [📄 containerd & CRI-O](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
-- [📄 Kubernetes Network Policies](https://www.iamachs.com/p/kubernetes-network-policies-explained/)
+- [📄 Kubernetes Network Policies](https://www.iamachs.com/p/kubernetes-networking/part-2-network-policies/)
 
 🕐 Coming Soon:
 - Basic Kubernetes Security: Users, RBAC, ServiceAccounts
@@ -174,8 +174,8 @@ For now, check:
 
 Explore beyond the KCNA scope:
 
-- [Securing AKS with Cilium](https://www.iamachs.com/p/securing-aks-with-cilium/)
-- [eBPF, Cilium, and Observability](https://www.iamachs.com/p/kubernetes-networking-with-cilium-ebpf/)
+- [Securing AKS with Cilium](https://www.iamachs.com/p/kubernetes-networking/part-4-aks-cilium-star-wars-demo/)
+- [eBPF, Cilium, and Observability](https://www.iamachs.com/p/kubernetes-networking/part-3-supercharge-with-cilium-ebpf/)
 
 ---
 
