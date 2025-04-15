@@ -154,7 +154,7 @@ You don’t need to master the terminal — just understand what `kubectl` does.
 | `kubectl delete`      | Remove objects                   |
 | `kubectl logs`        | View app logs                    |
 
-📄 [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheat-sheet/)
+📄 [Kubectl Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
 
 ---
 
