@@ -448,4 +448,6 @@ This is where theory meets experience — and your confidence starts to build.
 So take a breath. You’ve already made real progress.  
 Let’s keep going — one container at a time.
 
-![KCNA Phase 1 Complete](../assets/images/kcna-phase-1-complete-badge.png)
+<p align="center">
+  <img src="../assets/images/kcna-phase-1-complete-badge.png" alt="KCNA Phase 1 Complete" width="350"/>
+</p>
