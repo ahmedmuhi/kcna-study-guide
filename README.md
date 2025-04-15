@@ -1,84 +1,166 @@
-# Kubernetes Cloud Native Associate (KCNA) Study Guide
+# KCNA Exam Companion: Pass the Kubernetes & Cloud Native Associate Certification
 
-Welcome to the comprehensive study guide for the Kubernetes Cloud Native Associate (KCNA) certification exam. This guide is designed to help you prepare effectively for the KCNA exam, providing a structured learning path, hands-on practice, and curated resources.
+Welcome to your complete, no-fluff study companion for the KCNA exam.  
+This guide is built by a fellow learner and cloud-native practitioner (👋 hi, I’m Ahmed) who wanted a better, focused, and momentum-driven way to prepare — and is sharing it openly to help others.
 
-## About This Guide
+> This is not just a list of links. This README **is your roadmap**. Read it from top to bottom, and you’ll have everything you need to start preparing for KCNA today.
 
-This study guide covers all major topics in the KCNA curriculum. Each section includes:
-- An overview of the topic
-- Learning objectives
-- Links to detailed resources (articles, official documentation, etc.)
-- Hands-on practice exercises
-- Sample questions to test your understanding
+---
 
-## Exam Information
+## What This Is
 
-- [Official KCNA Curriculum](https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf)
-- [KCNA Exam Details](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
-- [Register for the KCNA Exam](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+A self-paced, open-source study guide designed to:
+- Help you pass the KCNA exam with confidence
+- Focus only on what matters (based on the CNCF exam blueprint)
+- Provide curated learning resources, articles, hands-on exercises, and conceptual checkpoints
+- Track your progress through clear **phases** and **domains**
 
-## Study Guide Outline
+> 🧭 This README **includes the full study plan** — you don’t need to dig through folders unless you want extra depth.
 
-1. Introduction to Cloud Native and Containers
-   - [Introduction to Cloud Native Computing](/lessons/01-introduction-to-cloud-native.md)
-   - [Docker for Beginners: Introduction to Docker](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/)
-   - [Docker for Beginners: Understanding Docker Architecture](https://www.iamachs.com/p/docker/part-2-understanding-docker-architecture/)
-   - [Docker for Beginners: Creating Your First Docker Image](https://www.iamachs.com/p/docker/part-3-creating-your-first-docker-image/)
-   - [Docker for Beginners: Networking Fundamentals for Containers](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
-   - [Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
-   - [Docker for Beginners: Beyond Docker - Understanding containerd and CRI-O](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
+---
 
-2. Kubernetes Fundamentals _(Work in Progress)_
-   - [Introduction to Kubernetes: Your Journey Begins Here](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)
-   - [Understanding Kubernetes Pods: The Building Blocks of Your Cloud-Native Applications](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)
-   - [Understanding Kubernetes ReplicaSets: Ensuring High Availability for Your Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
-   - Kubernetes networking basics _(Coming Soon)_
-   - Configuration and Secrets management _(Coming Soon)_
+## KCNA Exam Summary
 
-3. Container Orchestration and Advanced Kubernetes (_Coming Soon!_)
-   - Container orchestration principles
-   - Advanced Kubernetes objects
-   - Kubernetes scheduling and resource management
-   - Introduction to Helm
+| **Feature**           | **Details**                                           |
+|----------------------|-------------------------------------------------------|
+| Exam Name            | Kubernetes and Cloud Native Associate (KCNA)         |
+| Format               | Online, Proctored, Multiple-Choice                   |
+| Duration             | 90 minutes                                           |
+| Number of Questions  | ~60 questions                                        |
+| Passing Score        | 75%                                                  |
+| Cost                 | $250 USD (includes 1 free retake)                    |
+| Level                | Conceptual, foundational                             |
+| CLI Knowledge        | Minimal (basic `kubectl` awareness is enough)        |
 
-4. Cloud Native Architecture (_Coming Soon!_)
-   - Microservices architecture
-   - Autoscaling and serverless concepts
-   - Cloud Native design patterns
-   - Community, governance, and open standards
+📄 [Official Exam Site](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)  
+📄 [Official Curriculum PDF](https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf)
 
-5. Cloud Native Observability and Monitoring (_Coming Soon!_)
-   - Observability principles
-   - Introduction to Prometheus and Grafana
-   - Basic cost management in Cloud Native environments
+---
 
-6.  Cloud Native Application Delivery and DevOps (_Coming Soon!_)
-   - CI/CD in Cloud Native environments
-   - GitOps principles
-   - Basic security concepts in the CI/CD pipeline
+## The Game Plan: Focus Areas by Weight
 
-7. Cloud Native Security Fundamentals (_Coming Soon!_)
-   - The 4Cs of Cloud Native Security
-   - Basic Kubernetes security concepts
-   - Container and image security
+| Domain                        | Weight | Study Material                                       |
+|------------------------------|--------|------------------------------------------------------|
+| Kubernetes Fundamentals      | 46%    | ✅ [See below](#domain-1-kubernetes-fundamentals)     |
+| Container Orchestration      | 22%    | ✅ [See below](#domain-2-container-orchestration)     |
+| Cloud Native Architecture    | 16%    | ✅ [See below](#domain-3-cloud-native-architecture)   |
+| Observability & Monitoring   | 8%     | ✅ [See below](#domain-4-observability--monitoring)   |
+| App Delivery & DevOps        | 8%     | ✅ [See below](#domain-5-cloud-native-app-delivery)   |
 
-8. Emerging Cloud Native Technologies (_Coming Soon!_)
-   - Service Mesh introduction
-   - Serverless and Function-as-a-Service (FaaS)
-   - Edge computing in Cloud Native environments
+---
 
-## How to Use This Guide
+## Study Roadmap & Phases
 
-1. Start with the Introduction section and progress through each topic sequentially.
-2. For each section, review the learning objectives to understand what you should learn.
-3. Study the provided resources and complete the hands-on exercises.
-4. Test your knowledge with the practice questions at the end of each section.
-5. Use the links provided to dive deeper into topics as needed.
+This study plan is broken into **phases** aligned to the exam weights.  
+Each phase includes links to:
+- Concept explanations
+- Curated articles (including my [Docker for Beginners](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/) & [Kubernetes series](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/))
+- Hands-on prompts (where useful)
+- Practice questions (coming soon)
 
-## Contributing
+---
 
-This guide is open-source and community-driven. If you'd like to contribute, please see our [CONTRIBUTING.md](link-to-contributing-guide) file for guidelines.
+### Domain 1: Kubernetes Fundamentals (46%)
 
-## License
+🧠 Learn the architecture, key components, Pods, Deployments, Services, and the Kubernetes API model.
 
-This study guide is released under the [MIT License](link-to-license).
+✅ **Start here**  
+- [📄 Kubernetes: Introduction to Architecture](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)  
+- [📄 Pods: The Building Block](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)  
+- [📄 Deployments: Managing Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)  
+- [📄 Services & Networking Basics](Coming Soon)  
+- [📄 ConfigMaps, Secrets & Scheduling (Upcoming)](Coming Soon)
+
+---
+
+### Domain 2: Container Orchestration (22%)
+
+🧠 Understand container runtimes, orchestration needs, service discovery, storage, and basic security.
+
+✅ **Start here**
+- [📄 Docker for Beginners: A Clear, Friendly Introduction to Containers](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/)
+- [📄 Docker for Beginners: How Docker Works Behind the Scenes](https://www.iamachs.com/p/docker/part-2-understanding-docker-architecture/)
+- [📄 Docker for Beginners: From Code to Container and Cloud](https://www.iamachs.com/p/docker/part-3-creating-your-first-docker-image/)
+- [📄 Docker for Beginners: Docker Networking Explained](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
+- [📄 Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
+- [📄 Docker for Beginners: Understanding containerd, CRI-O, and the Runtime Layer](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
+
+---
+
+### Domain 3: Cloud Native Architecture (16%)
+
+🧠 Learn microservices, immutable infrastructure, CNCF governance, autoscaling, and open standards.
+
+✅ **Start here**  
+- [🧾 CNCF Cloud Native Definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)  
+- [📄 Cloud Native Mindset](Coming Soon)  
+- [📄 HPA: Autoscaling Basics](Coming Soon)  
+- [📄 Serverless & CNCF Landscape](Coming Soon)
+
+---
+
+### Domain 4: Observability & Monitoring (8%)
+
+🧠 Understand the "telemetry triad": logs, metrics, traces — plus Prometheus and cost awareness.
+
+✅ **Start here**  
+- [📄 Observability Principles](Coming Soon)  
+- [📄 Intro to Prometheus](Coming Soon)  
+- [📄 Cost Management Basics](Coming Soon)
+
+---
+
+### Domain 5: Cloud Native App Delivery (8%)
+
+🧠 Learn CI/CD, GitOps principles, and how cloud-native teams deploy fast and reliably.
+
+✅ **Start here**  
+- [📄 CI/CD Explained Simply](Coming Soon)  
+- [📄 GitOps 101](Coming Soon)  
+- [📄 Delivery Pipelines in K8s](Coming Soon)
+
+---
+
+## Basic Tools Awareness
+
+You don’t need to master the terminal — but understand *what* `kubectl` is used for:
+
+| Command                | Purpose                          |
+|------------------------|----------------------------------|
+| `kubectl get`         | View resources like pods, svc    |
+| `kubectl describe`    | Inspect details of objects       |
+| `kubectl apply -f`    | Apply config files (YAML)        |
+| `kubectl delete`      | Remove objects                   |
+| `kubectl logs`        | View app logs                    |
+
+📄 [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheat-sheet/)
+
+---
+
+## Practice Questions (Coming Soon)
+
+I'm working on a practice section that aligns with each domain and reinforces the core KCNA-style questions (scenario-based, definition-based, architecture-focused).
+
+In the meantime, you can check:
+- [KodeKloud KCNA Path](https://kodekloud.com/learning-path/kcna)  
+
+---
+
+## 🤝 Contributing
+
+Got a better explanation? Found a typo? Want to share your own learning?  
+Contributions are very welcome. See [`CONTRIBUTING.md`](#) (coming soon)
+
+---
+
+## 📄 License
+
+MIT – feel free to copy, remix, and share this to help more learners.  
+Let’s make cloud-native learning less overwhelming and more accessible.
+
+---
+
+## ✉️ Connect
+
+Questions? Feedback? Want to chat KCNA prep or cloud-native learning?  
+You can find me at [@ahmedmuhi01](https://x.com/ahmedmuhi01) or [iamachs.com](https://www.iamachs.com)
