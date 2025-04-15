@@ -54,7 +54,7 @@ A self-paced, open-source study guide designed to:
 This study plan is broken into **phases** aligned to the exam weights.  
 Each phase includes links to:
 - Concept explanations
-- Curated articles (including my [Docker for Beginners](https://www.iamachs.com/p/docker/part-1-introduction-to-docker-core-concepts/) & [Kubernetes series](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/))
+- Curated articles (including my [Docker for Beginners](https://www.iamachs.com/tags/docker/) & [Kubernetes series](https://www.iamachs.com/tags/kubernetes/))
 - Hands-on prompts (where useful)
 - Practice questions (coming soon)
 
@@ -65,11 +65,12 @@ Each phase includes links to:
 🧠 Learn the architecture, key components, Pods, Deployments, Services, and the Kubernetes API model.
 
 ✅ **Start here**  
-- [📄 Kubernetes: Introduction to Architecture](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)  
-- [📄 Pods: The Building Block](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)  
-- [📄 Deployments: Managing Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)  
-- [📄 Services & Networking Basics](Coming Soon)  
-- [📄 ConfigMaps, Secrets & Scheduling (Upcoming)](Coming Soon)
+- [📄 Introduction to Kubernetes: Your Journey Begins Here](https://www.iamachs.com/p/kubernetes/part-1-introduction-journey-begins/)  
+- [📄 Understanding Kubernetes Pods: The Building Blocks of Your Cloud-Native Applications](https://www.iamachs.com/p/kubernetes/part-2-pods-building-blocks/)  
+- [📄 Understanding Kubernetes ReplicaSets: Ensuring High Availability for Your Applications](https://www.iamachs.com/p/kubernetes/part-3-understanding-replicasets/)
+- [📄 Kubernetes Networking Explained: Pods, CNI, and Overlay Networks Demystified](https://www.iamachs.com/p/kubernetes-networking-explained-pods-cni-overlay-networks/)
+- [📄 Services](Coming Soon)  
+- [📄 ConfigMaps, Secrets & Scheduling](Coming Soon)
 
 ---
 
@@ -84,6 +85,7 @@ Each phase includes links to:
 - [📄 Docker for Beginners: Docker Networking Explained](https://www.iamachs.com/p/docker/part-4-networking-fundamentals-for-containers/)
 - [📄 Docker for Beginners: Understanding Docker Storage and Volumes](https://www.iamachs.com/p/docker/part-5-understanding-docker-storage-and-volumes/)
 - [📄 Docker for Beginners: Understanding containerd, CRI-O, and the Runtime Layer](https://www.iamachs.com/p/docker/part-6-understanding-containerd-and-cri-o/)
+- [📄 Kubernetes Network Policies Explained: A Practical Guide](https://www.iamachs.com/p/kubernetes-network-policies-explained/)
 
 ---
 
@@ -142,7 +144,16 @@ You don’t need to master the terminal — but understand *what* `kubectl` is u
 I'm working on a practice section that aligns with each domain and reinforces the core KCNA-style questions (scenario-based, definition-based, architecture-focused).
 
 In the meantime, you can check:
-- [KodeKloud KCNA Path](https://kodekloud.com/learning-path/kcna)  
+- Linux Foundation’s official companion course (if bundled with exam)
+
+---
+
+## 🎁 Go Deeper (Optional Reads)
+
+If you’re curious about real-world Kubernetes networking and security, check out:
+
+- [🧠 Securing AKS with Cilium: Layer 4 & 7 Network Policies](https://www.iamachs.com/p/securing-aks-with-cilium/)
+- [🧠 Kubernetes Networking with Cilium: eBPF Security & Observability](https://www.iamachs.com/p/kubernetes-networking-with-cilium-ebpf/)
 
 ---
 
