@@ -67,6 +67,8 @@ Before diving into containers and Kubernetes, it’s important to understand the
 ✅ **Start here**  
 - [📄 Introduction to Cloud Native Computing](./lessons/01-introduction-to-cloud-native.md)
 
+---
+
 ### Domain 1: Kubernetes Fundamentals (46%)
 
 🧠 Learn the architecture, control plane, core objects, API model, Services, scheduling, and YAML basics.
