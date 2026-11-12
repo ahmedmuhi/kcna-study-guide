@@ -41,6 +41,8 @@ A self-paced, open-source study guide designed to:
 
 ## 🗺️ Your Learning Journey
 
+> **Curriculum update:** The Linux Foundation's KCNA page now lists four domains: Kubernetes Fundamentals 44%, Container Orchestration 28%, Cloud Native Application Delivery 16% and Cloud Native Architecture 12%. The table below follows the earlier five-domain curriculum. Source: [Linux Foundation KCNA page](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/)
+
 **Estimated Total Study Time: 25-30 hours**
 
 | Domain                        | Weight | Est. Study Time | Coverage Status |
@@ -173,6 +175,7 @@ A KCNA-style question bank is coming. It will include:
 
 For now, check:
 - Linux Foundation's official companion course (if bundled with exam)
+- [ExamCrest free KCNA sample questions](https://examcrest.com/exam/cncf-kcna/free-questions?utm_source=github&utm_campaign=ahmedmuhi-kcna) - each tagged to a current domain, every option explained; no signup (full mock tests are paid)
 
 ---
 
